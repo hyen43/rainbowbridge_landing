@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🌈 Rainbow Bridge Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+반려동물 애도 앱 **Rainbow Bridge**의 출시 희망 여부를 확인하는 랜딩 페이지입니다.
 
-## Available Scripts
+## 📱 Rainbow Bridge 앱 소개
 
-In the project directory, you can run:
+반려동물과의 이별을 경험한 반려인들을 위한 49일간의 애도 프로그램을 제공하는 모바일 애플리케이션입니다.
 
-### `npm start`
+### 🎯 주요 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **49일 질문 배달** - 매일 하나씩 전달되는 치유를 위한 특별한 질문
+2. **추억을 기록하며 애도하기** - 질문에 답하며 소중한 추억을 차근차근 정리
+3. **마지막 하늘나라 모습 만들기** - 반려동물이 행복하게 지내는 하늘나라 상상하기
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 💡 핵심 컨셉
 
-### `npm test`
+- **49일간의 체계적인 애도 프로세스**
+- **혼자가 아닌 함께하는 치유 시간**
+- **죄책감 대신 따뜻한 그리움으로 전환**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 기술 스택
 
-### `npm run build`
+- **React** - UI 라이브러리
+- **CSS** - 스타일링
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 프로젝트 구조
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── components/
+│   ├── Header.tsx      # 헤더 네비게이션
+│   ├── Hero.tsx        # 메인 히어로 섹션
+│   ├── Features.tsx    # 주요 기능 소개
+│   ├── Process.tsx     # 사용 방법 안내
+│   ├── Survey.tsx      # 출시 희망 여부 확인
+│   └── Footer.tsx      # 푸터
+├── App.tsx             # 메인 앱 컴포넌트
+└── index.tsx           # 앱 진입점
+```
 
-### `npm run eject`
+## 🎨 페이지 구성
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Hero**: 앱 소개 및 핵심 메시지
+- **Features**: 3가지 주요 기능 설명
+- **Process**: 4단계 사용 방법 가이드  
+- **Survey**: 출시 알림 신청
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*반려동물과의 건강한 이별을 위한 Rainbow Bridge 앱의 랜딩 페이지입니다.*
